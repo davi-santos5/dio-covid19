@@ -2,7 +2,6 @@ import React, { memo } from 'react';
 
 import COUNTRIES from '../../../common/constants/countries'
 import { Card, Typography, Button, Select, MenuItem } from '../../../components'
-//import RefreshIcon from '../../../assets/images/refresh.svg';
 import { CardPanelContentStyled, ItemStyled } from './style'
 
 const navigatorHasShare = navigator.share;
