@@ -6,7 +6,7 @@ import { CardPanelContentStyled, ItemStyled } from './style'
 
 const navigatorHasShare = navigator.share;
 
-function Panel({ updateAt, onChange, data, country, getCovidData }) {
+function Panel({ updateAt, onChange, data, country }) {
     const { cases, recovered, deaths, todayCases, todayDeaths } = data;
 
     const renderCountries = (country, index) => (
